@@ -34,6 +34,8 @@ ul{
 
 .hero-container{
     display: flex;
+    padding: 60px;
+    flex: 1;
     justify-content: space-around;
     align-items: center;
     background-color: #1F2937;
@@ -52,6 +54,49 @@ ul{
 }
 
 .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color:  #3882F6 ;
     color: #e5e7eb;
+    border-radius: 15%;
+    width: 60px;
+    padding: 5px;
+}
+
+.info-container{
+    padding: 20px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.info-title{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.items img{
+    width: 100px;
+}
+
+.items .text{
+    max-width: 100px;
+    text-align:center;
 }
