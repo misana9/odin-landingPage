@@ -1,0 +1,9 @@
+.header{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+ul {
+    list-style-type: none;
+  }
+  
