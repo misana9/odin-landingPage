@@ -70,7 +70,7 @@ ul{
     align-items: center;
     background-color:  #3882F6 ;
     color: #e5e7eb;
-    border-radius:15%;
+    border-radius:8px;
     width: 60px;
     padding: 5px;
 }
@@ -112,13 +112,14 @@ ul{
 .quote-container{
     height: 500px;
     background-color: #e5e7eb;
+    justify-content: center;
     display: flex;
     align-items: center;
 }
 
 .quote-text{
+    width: 726px;
     text-align: justify;
-    padding: 150px 450px;
     display: flex;
     flex-direction: column;
     color: #1F2937;
@@ -131,3 +132,45 @@ ul{
     text-align: end;
     font-weight: bold;
 }
+
+.last-section{
+    display: flex;
+    height: 500px;
+    align-items: center;
+    background-color:white;
+    justify-content: center;
+}
+
+
+.white{
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    padding: 0px 250px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 150px;
+    margin:  150px;
+    border-radius: 8px;
+}
+
+.signup{
+    display: flex;
+    padding: 5px 25px;
+    border-style:solid;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    color: white;
+    padding: 25px;
+}
+
+
+
+
